@@ -1,0 +1,26 @@
+preset:
+  save_file: ./logs
+  json_home: ./data_json
+  dataset: D
+  enframe: no
+  data_home: /home/wang/datasets/DNS-Challenge/DNS-Challenge/make_data/
+train:
+  batch_size: 2
+  epochs: 1000
+  num_workers: 32
+  half_lr: y
+  early_stop: y
+filterbank:
+  n_fft: 512
+  win_length: 400
+  hop_length: 100
+optim:
+  optimizer: adam
+  lr: 0.001
+  weight_decay: 0.   #regular
+# half lr
+scheduler:
+  factor: 0.5
+  patience: 3
+  verbose: y
+

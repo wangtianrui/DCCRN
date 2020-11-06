@@ -11,11 +11,6 @@ __pycache__/
 *.svg
 *.jpg
 *.csv
-<<<<<<< HEAD
-=======
-*.wav
-*.mp3
->>>>>>> 348f07d39b8695501104fd381cd14ebf5626a55b
 logs/
 # pickle
 *.log
