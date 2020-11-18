@@ -14,3 +14,16 @@ asteroid==0.3.4
 ```
 * run train.py on pycharm
 
+### test score
+```txt
+PESQ:
+count 2400.000000
+mean 3.379963
+std 0.821623
+min 1.063296
+25% 2.748637
+50% 3.600925
+75% 4.087152
+max 4.509835
+```
+
