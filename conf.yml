@@ -7,7 +7,7 @@ preset:
 train:
   batch_size: 2
   epochs: 1000
-  num_workers: 32
+  num_workers: 8
   half_lr: y
   early_stop: y
 filterbank:
